@@ -1,0 +1,122 @@
+.pac-container {
+    background-color: #FFF;
+    z-index: 2001;
+    position: fixed;
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.pac-item {
+    padding: 0.5rem 0.25rem;
+}
+
+.modal {
+    z-index: 2000;
+}
+
+.modal-backdrop {
+    z-index: 1000;
+}
+
+.form-input,
+.pac-container {
+    border: 1px solid #efefef;
+    border-radius: 0.375rem;
+    color: #898989;
+    font-stretch: 100%;
+    letter-spacing: 1px;
+}
+
+.form-input {
+    padding: 0.725rem;
+}
+
+.form-input:focus,
+.form-input:focus-visible,
+.form-input:focus-within {
+    border: 1px solid #efefef !important;
+    outline: 0;
+}
+
+.project-item {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+
+.item-success {
+    background-color: #d9efd6;
+    // color: #54ba4a;
+}
+
+.item-warning {
+    background-color: #ffecc7;
+    // color: #ffaa05;
+}
+
+.item-count {
+    color: #7366ff;
+    font-weight: 600;
+    padding-left: 0.25rem;
+}
+
+.item-count>* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.project-description {
+    color: rgba(82, 82, 108, 0.8);
+}
+
+.project-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 !important;
+    transition: all .2s ease-in-out;
+}
+
+.project-box:hover {
+    transform: scale(1.025);
+}
+
+.total-hours-worked {
+    background-color: #efefef;
+    display: grid;
+    place-items: center;
+    padding: 0.75rem 2rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+}
+
+.project-status {
+    margin-top: auto !important;
+}
+
+::-webkit-input-placeholder {
+    font-size: 0.85rem;
+    color: #898989 !important;
+    opacity: 0.8 !important;
+}
+
+::-moz-placeholder {
+    font-size: 0.85rem;
+    color: #898989 !important;
+    opacity: 0.8 !important;
+}
+
+:-ms-input-placeholder {
+    font-size: 0.85rem;
+    color: #898989 !important;
+    opacity: 0.8 !important;
+}
+
+::placeholder {
+    font-size: 0.85rem;
+    color: #898989 !important;
+    opacity: 0.8 !important;
+}
